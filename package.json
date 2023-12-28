@@ -1,0 +1,23 @@
+{
+  "name": "eslint-normalize-evm-addresses",
+  "version": "0.0.3",
+  "description": "ESLint to normalize evm addresses in your code",
+  "main": "eslint-plugin-normalize-evm-addresses.js",
+  "scripts": {
+    "testFix": "npx eslint example.js --fix"
+  },
+  "keywords": [
+    "ESLint",
+    "web3",
+    "ESLint-web3",
+    "ESLint-web3-rule"
+  ],
+  "author": "Dharmi Kumbhani",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "ethereum-checksum-address": "^0.0.8"
+  }
+}
