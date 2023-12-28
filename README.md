@@ -2,7 +2,7 @@
 This ESLint Rule finds all evm addresses literals in your code and converts them to checksummed version.
 
 ### How to use it
-1. Install the (plugin)[https://www.npmjs.com/package/eslint-normalize-evm-addresses] - `npm i --save-dev eslint-normalize-evm-addresses`
+1. Install the [plugin](https://www.npmjs.com/package/eslint-normalize-evm-addresses) - `npm i --save-dev eslint-normalize-evm-addresses`
 2. Create the ESLint config file - `eslint.config.js`
 3. Import and add the custom plugin by adding the following lines of code in your file.
 ```
