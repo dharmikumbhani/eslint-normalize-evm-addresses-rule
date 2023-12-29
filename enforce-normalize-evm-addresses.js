@@ -11,7 +11,7 @@ module.exports = {
     create(context) {
         return {
             Literal(node) {
-                const ethValidAddressRegex = /^0x[a-fA-F0-9]{40}$/gm;
+                const ethValidAddressRegex = /^0x[a-f0-9]{40}$/gm;
                 if (node.value && ethValidAddressRegex.test(node.value)) {
                     context.report({
                         node,

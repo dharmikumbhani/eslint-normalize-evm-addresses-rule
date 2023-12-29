@@ -1,6 +1,6 @@
 {
   "name": "eslint-normalize-evm-addresses",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint to normalize evm addresses in your code",
   "main": "eslint-plugin-normalize-evm-addresses.js",
   "scripts": {
